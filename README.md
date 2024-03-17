@@ -13,8 +13,8 @@
 6. Data Preprocessing
 7. Data Modelling
 8. Evaluation
-9. Recommendations
-10. Conclusions
+9. Conclusions And Recommendations
+10. Challenges
  
 ## 1. Business Understanding
 ### 1.1 Business Description
@@ -51,11 +51,11 @@ It includes three iris species with 50 samples each as well as some properties a
 The columns in this dataset are:
 
 Id
-SepalLengthCm
-SepalWidthCm
-PetalLengthCm
-PetalWidthCm
-Species
+sepal length (cm)
+sepal width (cm)
+petal length (cm)
+petal width (cm)
+target
 
 ## 4. Data Preparation
 
@@ -66,13 +66,38 @@ Species
 
 
 ## 7. Data Modelling
-
+used 6 models:
+Logistic Regression
+SVM
+Decision Trees
+Random Forest
+KNN
+Neural Networks
 
 ## 8. Evaluation
+Ease of Interpretation: Accuracy is an intuitive and easily interpretable metric. It represents the percentage of correct predictions among all predictions made by the model. Users, including hotel staff, can readily understand and trust this metric.
 
-## 9. Conclusions
+Clear Benchmark: Accuracy provides a clear benchmark for evaluating model performance. It answers the basic question: "How often is the model correct?" This simplicity can be advantageous for communication and decision-making.
 
+Balanced Classes: If the classes of interest (e.g., setosa, versicolor, virginica) are roughly balanced, accuracy can be an effective measure. It doesn't favor one class over another and provides a sense of overall correctness.
+
+I tested and from that we choose the best 3 performing models which are :
+
+Logistic regression = 95%
+Random Forest = 94%
+KNN = 94%
+
+## 9. Conclusions And Recommendations
+1. It provides a good example for exploring various machine learning techniques, particularly classification algorithms.
+
+2. Feature importance analysis: It can provide insights into which features contribute the most to the classification task. This information can be valuable for understanding the underlying characteristics of the data and potentially simplifying the model by focusing on the most relevant features.
+
+3. Outlier detection and removal, as demonstrated in the analysis, can improve model performance by reducing the impact of noisy data points. However, it's essential to exercise caution and consider the domain knowledge when deciding how to handle outliers like I did. But mostly justify.
+
+It's essential to monitor the model's performance over time and periodically retrain it with new data to ensure its effectiveness.
    - 
-## 10. Recommendations
+## 10. Challenges
+1. Dataset was too small - Used input method to enable users to input their own sample data
 
+2. Does not demonstrate real world applications due to it's small nature, rather, I used it to simply demonstrate Machine learning concepts
 
