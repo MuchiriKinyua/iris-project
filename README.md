@@ -85,37 +85,54 @@ Lastly I looked for outliers in my dataset and found one column, sepal width (cm
 
 ## 5. EDA
 ### Univariate Analysis 
-sepal length (cm) </br>
-**Observation:** 
-**Insight:** 
-sepal width (cm) </br>
-**Observation:** 
-**Insight:** 
-petal length (cm) </br>
-**Observation:** 
-**Insight:** 
-petal width (cm)
-**Observation:** 
-**Insight:** 
+sepal length (cm) Based on the image, the mean seems to be in around 6.0 cm meaning most of the flowers sepal length range around that length </br>
+sepal width (cm) For the sepal width on the other hand, it is half the length of sepal length with most of the flowers size ranging at approximately 3.0 </br>
+petal length (cm) The length of the petals seem to be unevenly distributed with some ranging from 1 cm to 2.2 cm and from 2.7 cm to 6.8 cm. Also, there is no flower which registered a petal length of between 2.2 cm and 2.7 cm </br>
+petal width (cm) Petal width follows the same path with petal length on uneven distribution. Just like sepal width being half the mean of sepal length, petal width is half the size of petal length.
 
 ### Bivariate Analysis
-sepal length (cm) vs sepal width (cm) </br>
-**Observation:** 
-**Insight:** 
-petal length (cm) vs petal width (cm) </br>
-**Observation:** 
-**Insight:** 
-Each Feature vs Target
-**Observation:** 
-**Insight:** 
+sepal length (cm) vs sepal width (cm) - As I said, the sepal length is twice the size of the sepal width. The two seem to have a fairly close distribution. </br>
+petal length (cm) vs petal width (cm) - As For the petal length and petal width, business remains the same as that of sepal length and sepal width with both similarity in an evenly distribution and a similar ratio. i.e 2:1 </br>
+Each Feature vs Target - 
+**N/B: This is an interpretion of where most of the length lies of different features of the each flower** </br>
+**sepal length** </br>
+setosa - The mean of it's sepal length is 5.0 cm </br>
+versicolor - The mean of it's sepal length is 5.7 cm </br>
+virginica - The mean of it's sepal length is 6.8 cm </br>
+
+**sepal width** </br>
+setosa - The mean of it's sepal width is 2.5 cm </br>
+versicolor - The mean of it's sepal width is 2.8 cm </br>
+virginica - The mean of it's sepal width is 3.2 cm </br>
+
+**petal length** </br>
+setosa - The mean of it's petal length is 1.5 cm </br>
+versicolor - The mean of it's petal length is 4.0 cm </br>
+virginica - The mean of it's petal length is 5.7 cm </br>
+
+**petal width** </br>
+setosa - The mean of it's petal width is 0.25 cm </br>
+versicolor - The mean of it's petal width is 1.25 cm </br>
+virginica - The mean of it's petal width is 2.0 cm </br>
+
+**target** </br>
+setosa (0) - Has 47 features </br>
+versicolor (1) - Has 49 features </br>
+virginica (2) - Has 50 features </br>
+
+**The analysis above shows that width is half the size of length for each iris species which will be a very important aspect in evaulation**
+
 
 ### Multivariate Analysis 
 Petal Width vs. Petal Length for every target </br>
-**Observation:** 
-**Insight:**
+setosa has the smallest petal length and petal width </br>
+versicolor has intermediate petal length and petal width as compared to Setosa and virginica </br>
+virginica has the largest petal length and petal width
+
 Sepal Width vs. Sepal Length for every target
-**Observation:** 
-**Insight:**
+Just like in petals: setosa has the smallest sepal length and sepal width </br>
+versicolor has intermediate sepal length and sepal width as compared to Setosa and virginica </br>
+virginica has the largest sepal length and sepal width
 
 ## 6. Data Preprocessing
 Performing Train Test Split </br>
