@@ -1,20 +1,40 @@
 ![iris flowers](https://github.com/MuchiriKinyua/iris-project/assets/113877377/94e26418-8514-4ee7-b33e-21574a778f9c)
 # iris-project
 ## Table of Contents
-1. Business Understanding </br>
-   1.1 Business Description </br>
-    1.2 Problem Statement </br>
-     1.3 Main Objective </br>
-       1.4 Specific Objectives
-2. Importing Libraries And Warnings
-3. Data Understanding
-4. Data Cleaning
-5. EDA
-6. Data Preprocessing
-7. Data Modelling
-8. Evaluation
-9. Conclusions And Recommendations
-10. Challenges
+# Table of contents
+[1. Business Understanding](#1.-Business-Understanding) </br>
+[1.1 Business Description](#1.1-Business-Description) </br>
+[1.2 Problem Statement](#1.2-Problem-Statement) </br>
+[1.3 Main Objective](#1.3-Main-Objective) </br>
+[1.4 Specific Objectives](#1.4-Specific-Objectives) </br>
+[2. Importing Libraries And Warnings](#2.-Importing-Libraries-And-Warnings) </br>
+[3. Data Understanding](#3.-Data-Understanding) </br>
+[4. Data Cleaning](#4.-Data-Cleaning) </br>
+[4.2 Missing Values](#4.2-Missing-Values)</br>
+[4.3 Duplicates](#4.3-Duplicates)</br>
+[4.4 Outliers](#4.4-Outliers)</br>
+[5. EDA](#5.-EDA) </br>
+[5.1 Univariate Analysis](#5.1-Univariate-Analysis) </br>
+[5.2 Bivariate Analysis](#5.2-Bivariate-Analysis) </br>
+[5.3 Multivariate Analysis](#5.3-Multivariate-Analysis) </br>
+[6. Data Preprocessing](#6.-Data-Preprocessing) </br>
+[6.1 Performing Train Test Split](#6.1-Performing-Train-Test-Split) </br>
+[6.2 Scaling](#6.2-Scaling) </br>
+[6.3 PCA](#6.3-PCA) </br>
+[6.4 Correlation](#6.4-Correlation) </br>
+[7. Data Modelling](#7.-Data-Modelling) </br>
+[7.1 Logistic Regression](#7.1-Logistic-Regression) </br>
+[7.2 SVM](#7.2-SVM) </br>
+[7.3 Decision Trees](#7.3-Decision-Trees) </br>
+[7.4 Random Forest](#7.4-Random-Forest) </br>
+[7.5 KNN](#7.5-KNN) </br>
+[7.6 Neural Networks](#7.6-Neural-Networks) </br>
+[8. Evaluation](#8.-Evaluation) </br>
+[8.1 Logistic Regression Model Test](#8.1-Logistic-Regression-Model-Test) </br>
+[8.2 Random Forest Model Test](#8.2-Random-Forest-Model-Test) </br>
+[8.3 KNN Model Test](#8.3-KNN-Model-Test) </br>
+[9. Conclusions And Recommendations](#9.-Conclusions-And-Recommendations) </br>
+[10. Challenges](#10.-Challenges)
  
 ## 1. Business Understanding
 ### 1.1 Business Description
@@ -35,7 +55,7 @@ I will build a supervised learning model/models (now that I have the targets) th
 I will build a model that can accurately classify Iris flowers into their three known species (Iris Setosa, Iris Versicolor, Iris Virginica) based on the provided measurements. This will involve learning the patterns i.e The model needs to identify the relationships between the flower measurements (sepal and petal dimensions) and the corresponding species.
 ### Evaluation:  
 A key aspect of evaluation will be to compare the classification accuracy achieved using PCA. This will help me understand if dimensionality reduction through PCA benefits the model performance in this specific case.
-## 2. Importing Libraries And Necessary dependencies 
+## 2. Importing Libraries And Warnings
 import pickle </br>
 import warnings </br>
 import numpy as np </br>
@@ -144,9 +164,9 @@ versicolor has intermediate sepal length and sepal width as compared to Setosa a
 virginica has the largest sepal length and sepal width
 
 ## 6. Data Preprocessing
-Performing Train Test Split </br>
+**Performing Train Test Split** </br>
 The dataset was split into training and testing sets before scaling the features. </br>
-Scaling </br>
+**Scaling** </br>
 Scaled the features to normalize the range of features in the dataset. </br>
 PCA </br>
 Created a scatter plot from principal components, where the color of the dot is based on the target value. Separated my variable X_train_pca based on the associated target value in y_train. Created dataframes setosa (target = 0), versicolor (target = 1), and virginica (target = 2).
