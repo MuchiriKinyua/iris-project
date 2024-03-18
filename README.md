@@ -93,7 +93,7 @@ petal width (cm) Petal width follows the same path with petal length on uneven d
 ### Bivariate Analysis
 sepal length (cm) vs sepal width (cm) - As I said, the sepal length is twice the size of the sepal width. The two seem to have a fairly close distribution. </br>
 petal length (cm) vs petal width (cm) - As For the petal length and petal width, business remains the same as that of sepal length and sepal width with both similarity in an evenly distribution and a similar ratio. i.e 2:1 </br>
-Each Feature vs Target - 
+Each Feature vs Target - </br>
 **N/B: This is an interpretion of where most of the length lies of different features of the each flower** </br>
 **sepal length** </br>
 setosa - The mean of it's sepal length is 5.0 cm </br>
