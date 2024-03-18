@@ -85,15 +85,22 @@ Lastly I looked for outliers in my dataset and found one column, sepal width (cm
 
 ## 5. EDA
 ### Univariate Analysis 
+![sepal length (cm)](https://github.com/MuchiriKinyua/iris-project/assets/113877377/2878fc1c-2c0e-40e1-8d9a-1dead39b2f70)
 sepal length (cm) Based on the image, the mean seems to be in around 6.0 cm meaning most of the flowers sepal length range around that length </br>
+![Sepal width](https://github.com/MuchiriKinyua/iris-project/assets/113877377/9608a875-1ae6-48f7-a70c-dd25eb3fad55)
 sepal width (cm) For the sepal width on the other hand, it is half the length of sepal length with most of the flowers size ranging at approximately 3.0 </br>
+![Petal length](https://github.com/MuchiriKinyua/iris-project/assets/113877377/5592c64b-6ccd-47dc-813e-0c350b6f413f)
 petal length (cm) The length of the petals seem to be unevenly distributed with some ranging from 1 cm to 2.2 cm and from 2.7 cm to 6.8 cm. Also, there is no flower which registered a petal length of between 2.2 cm and 2.7 cm </br>
+![Petal width](https://github.com/MuchiriKinyua/iris-project/assets/113877377/c5e13746-ef7f-45df-afb4-e8daaf6e1f22)
 petal width (cm) Petal width follows the same path with petal length on uneven distribution. Just like sepal width being half the mean of sepal length, petal width is half the size of petal length.
 
 ### Bivariate Analysis
+![sepal length vs sepal width png ](https://github.com/MuchiriKinyua/iris-project/assets/113877377/2d771e85-aa0f-48cd-a65b-ce9ac6411bea)
 sepal length (cm) vs sepal width (cm) - As I said, the sepal length is twice the size of the sepal width. The two seem to have a fairly close distribution. </br>
+![Petal length vs petal width](https://github.com/MuchiriKinyua/iris-project/assets/113877377/67b8d5dc-5fdf-4047-af38-5a11b333b553)
 petal length (cm) vs petal width (cm) - As For the petal length and petal width, business remains the same as that of sepal length and sepal width with both similarity in an evenly distribution and a similar ratio. i.e 2:1 </br>
 Each Feature vs Target - </br>
+![Feature and Target](https://github.com/MuchiriKinyua/iris-project/assets/113877377/0109b2c6-9481-409a-99cc-80e77f725efd)
 **N/B: This is an interpretion of where most of the length lies of different features of the each flower** </br>
 **sepal length** </br>
 setosa - The mean of it's sepal length is 5.0 cm </br>
@@ -124,12 +131,14 @@ virginica (2) - Has 50 features </br>
 
 
 ### Multivariate Analysis 
+![Multivariate petal png ](https://github.com/MuchiriKinyua/iris-project/assets/113877377/648c67a4-d65c-4105-b47c-66bc4fd971a4)
 Petal Width vs. Petal Length for every target </br>
 setosa has the smallest petal length and petal width </br>
 versicolor has intermediate petal length and petal width as compared to Setosa and virginica </br>
 virginica has the largest petal length and petal width
 
 Sepal Width vs. Sepal Length for every target
+![Multivariate sepal](https://github.com/MuchiriKinyua/iris-project/assets/113877377/11abaf3c-ed9d-4e9f-8111-b8ad4c081e24)
 Just like in petals: setosa has the smallest sepal length and sepal width </br>
 versicolor has intermediate sepal length and sepal width as compared to Setosa and virginica </br>
 virginica has the largest sepal length and sepal width
