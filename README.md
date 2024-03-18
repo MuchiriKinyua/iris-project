@@ -168,29 +168,28 @@ virginica has the largest sepal length and sepal width
 The dataset was split into training and testing sets before scaling the features. </br>
 **Scaling** </br>
 Scaled the features to normalize the range of features in the dataset. </br>
-PCA </br>
+**PCA** </br>
 Created a scatter plot from principal components, where the color of the dot is based on the target value. Separated my variable X_train_pca based on the associated target value in y_train. Created dataframes setosa (target = 0), versicolor (target = 1), and virginica (target = 2).
-Correlation </br>
+**Correlation** </br>
 I examined the correlation between numerical columns. I also created a heatmap to visualize the correlation matrix. Notably, a correlation coefficient of approximately 0 indicated no linear relationship between the variables in the dataset.
 
 **Note** The dataset was extensively processed and transformed, resulting in a structured and balanced dataset ready for further analysis and model training. The preprocessing steps aimed to enhance the dataset's quality, reduce dimensionality, setting the stage for effective machine learning model development.
 
 ## 7. Data Modelling
-used 6 models: </br>
-Logistic Regression </br>
+Used 6 models: </br>
+**Logistic Regression** </br>
 Achieved an accuracy of approximately 95%.
-SVM </br>
+**SVM** </br>
 Achieved an accuracy of approximately 94%.
-Decision Trees  </br>
+**Decision Trees**  </br>
 Initially trained a Decision Tree model and achieved an accuracy of 1.0.
 Conducted Tree pruning to optimize the Decision Tree model.
 Achieved an accuracy of 94%.
-![Decision tree](https://github.com/MuchiriKinyua/iris-project/assets/113877377/7d1a7524-d819-4a49-b7fc-6db567f1ea87)
-Random Forest </br>
+**Random Forest** </br>
 Achieved an accuracy of approximately 94%.
-KNN </br>
+**KNN** </br>
 Achieved an accuracy of approximately 94%.
-Neural Networks </br>
+**Neural Networks** </br>
 Achieved an accuracy of approximately 91%.
 
 ## 8. Evaluation
