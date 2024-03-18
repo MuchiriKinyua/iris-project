@@ -86,13 +86,13 @@ The Iris dataset was used in R.A. Fisher's classic 1936 paper, The Use of Multip
 
 It includes three iris species with 50 samples each as well as some properties about each flower. One flower species is linearly separable from the other two, but the other two are not linearly separable from each other.
 
-The columns in this dataset are:
+The columns in this dataset are: </br>
 
-Id
-sepal length (cm)
-sepal width (cm)
-petal length (cm)
-petal width (cm)
+Id </br>
+sepal length (cm) </br>
+sepal width (cm) </br>
+petal length (cm) </br>
+petal width (cm) </br>
 target
 
 ## 4. Data Cleaning
@@ -178,19 +178,19 @@ I examined the correlation between numerical columns. I also created a heatmap t
 ## 7. Data Modelling
 Used 6 models: </br>
 **Logistic Regression** </br>
-Achieved an accuracy of approximately 95%.
+Achieved an accuracy of approximately 95%. </br>
 **SVM** </br>
-Achieved an accuracy of approximately 94%.
+Achieved an accuracy of approximately 94%. </br>
 **Decision Trees**  </br>
 Initially trained a Decision Tree model and achieved an accuracy of 1.0.
 Conducted Tree pruning to optimize the Decision Tree model.
-Achieved an accuracy of 94%.
+Achieved an accuracy of 94%. </br>
 **Random Forest** </br>
-Achieved an accuracy of approximately 94%. 
+Achieved an accuracy of approximately 94%. </br>
 **KNN** </br>
-Achieved an accuracy of approximately 94%.
+Achieved an accuracy of approximately 94%. </br>
 **Neural Networks** </br>
-Achieved an accuracy of approximately 91%.
+Achieved an accuracy of approximately 91%. </br>
 
 ## 8. Evaluation
 Ease of Interpretation: Accuracy is an intuitive and easily interpretable metric. It represents the percentage of correct predictions among all predictions made by the model. Users, including hotel staff, can readily understand and trust this metric.
