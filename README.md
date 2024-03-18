@@ -169,7 +169,7 @@ The dataset was split into training and testing sets before scaling the features
 **Scaling** </br>
 Scaled the features to normalize the range of features in the dataset. </br>
 **PCA** </br>
-Created a scatter plot from principal components, where the color of the dot is based on the target value. Separated my variable X_train_pca based on the associated target value in y_train. Created dataframes setosa (target = 0), versicolor (target = 1), and virginica (target = 2).
+Created a scatter plot from principal components, where the color of the dot is based on the target value. Separated my variable X_train_pca based on the associated target value in y_train. Created dataframes setosa (target = 0),  </br> versicolor (target = 1),  </br> virginica (target = 2). </br>
 **Correlation** </br>
 I examined the correlation between numerical columns. I also created a heatmap to visualize the correlation matrix. Notably, a correlation coefficient of approximately 0 indicated no linear relationship between the variables in the dataset.
 
@@ -186,7 +186,7 @@ Initially trained a Decision Tree model and achieved an accuracy of 1.0.
 Conducted Tree pruning to optimize the Decision Tree model.
 Achieved an accuracy of 94%.
 **Random Forest** </br>
-Achieved an accuracy of approximately 94%.
+Achieved an accuracy of approximately 94%. 
 **KNN** </br>
 Achieved an accuracy of approximately 94%.
 **Neural Networks** </br>
@@ -199,11 +199,11 @@ Clear Benchmark: Accuracy provides a clear benchmark for evaluating model perfor
 
 Balanced Classes: If the classes of interest (e.g., setosa, versicolor, virginica) are roughly balanced, accuracy can be an effective measure. It doesn't favor one class over another and provides a sense of overall correctness.
 
-I tested and from that we choose the best 3 performing models which are :
+I tested and from that we choose the best 3 performing models which are : </br>
 
-Logistic regression = 95%
-Random Forest = 94%
-KNN = 94%
+Logistic regression = 95% </br>
+Random Forest = 94% </br>
+KNN = 94% </br>
 
 ## 9. Conclusions And Recommendations
 1. It provides a good example for exploring various machine learning techniques, particularly classification algorithms.
