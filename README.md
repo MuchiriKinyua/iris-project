@@ -192,9 +192,9 @@ KNN = 94%
 2. Feature importance analysis: It can provide insights into which features contribute the most to the classification task. This information can be valuable for understanding the underlying characteristics of the data and potentially simplifying the model by focusing on the most relevant features.
 
 3. Outlier detection and removal, as demonstrated in the analysis, can improve model performance by reducing the impact of noisy data points. However, it's essential to exercise caution and consider the domain knowledge when deciding how to handle outliers like I did. But mostly justify.
-
-It's essential to monitor the model's performance over time and periodically retrain it with new data to ensure its effectiveness.
-   - 
+4. Petal length and sepal length are twice the size of petal width and sepal width.
+5. It's essential to monitor the model's performance over time and periodically retrain it with new data to ensure its effectiveness.
+   
 ## 10. Challenges
 1. Dataset was too small - Used input method to enable users to input their own sample data
 
