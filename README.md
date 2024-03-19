@@ -19,31 +19,8 @@ I will build a supervised learning model/models (now that I have the targets) th
 I will build a model that can accurately classify Iris flowers into their three known species (Iris Setosa, Iris Versicolor, Iris Virginica) based on the provided measurements. This will involve learning the patterns i.e The model needs to identify the relationships between the flower measurements (sepal and petal dimensions) and the corresponding species.
 ### Evaluation:  
 A key aspect of evaluation will be to compare the classification accuracy achieved using PCA. This will help me understand if dimensionality reduction through PCA benefits the model performance in this specific case.
-## 2. Importing Libraries And Warnings
-import pickle </br>
-import warnings </br>
-import numpy as np </br>
-import pandas as pd </br>
-import seaborn as sns </br>
-from sklearn import metrics </br>
-from sklearn.svm import SVC </br>
-from sklearn import datasets </br>
-import matplotlib.pyplot as plt </br>
-warnings.filterwarnings("ignore") </br>
-from sklearn.tree import plot_tree </br>
-from sklearn.decomposition import PCA </br>
-from keras.utils import to_categorical </br>
-from keras import models, layers, optimizers </br>
-from sklearn.tree import DecisionTreeClassifier </br>
-from sklearn.preprocessing import OneHotEncoder </br>
-from sklearn.preprocessing import StandardScaler </br>
-from sklearn.neighbors import KNeighborsClassifier </br>
-from sklearn.linear_model import LogisticRegression </br>
-from sklearn.ensemble import RandomForestClassifier </br>
-from sklearn.model_selection import train_test_split </br>
-from sklearn.metrics import classification_report, accuracy_score
 
-## 3. Data Understanding
+## 2. Data Understanding
 I got the iris dataset from Kaggle, a popular datasets website.
 
 The Iris dataset was used in R.A. Fisher's classic 1936 paper, The Use of Multiple Measurements in Taxonomic Problems, and can also be found on the UCI Machine Learning Repository.
@@ -59,7 +36,7 @@ petal length (cm) </br>
 petal width (cm) </br>
 target
 
-## 4. Data Cleaning
+## 3. Data Cleaning
 **Missing Values** </br>
 I started by looking for missing values in my dataset and found none. </br>
 **Duplicates** </br>
@@ -67,7 +44,7 @@ I also looked for duplicates in my dataset and found none. </br>
 **Outliers** </br>
 Lastly I looked for outliers in my dataset and found one column, sepal width (cm), to contain 4 outliers. Since this constituted just 2.67% of the data, I decided to drop them since they were significantly small.
 
-## 5. EDA
+## 4. EDA
 ### Univariate Analysis 
 ![sepal length (cm)](https://github.com/MuchiriKinyua/iris-project/assets/113877377/2878fc1c-2c0e-40e1-8d9a-1dead39b2f70)
 sepal length (cm) Based on the image, the mean seems to be in around 6.0 cm meaning most of the flowers sepal length range around that length </br>
@@ -127,7 +104,7 @@ Just like in petals: setosa has the smallest sepal length and sepal width </br>
 versicolor has intermediate sepal length and sepal width as compared to Setosa and virginica </br>
 virginica has the largest sepal length and sepal width
 
-## 6. Data Preprocessing
+## 5. Data Preprocessing
 **Performing Train Test Split** </br>
 The dataset was split into training and testing sets before scaling the features. </br>
 **Scaling** </br>
@@ -139,7 +116,7 @@ I examined the correlation between numerical columns. I also created a heatmap t
 
 **Note** The dataset was extensively processed and transformed, resulting in a structured and balanced dataset ready for further analysis and model training. The preprocessing steps aimed to enhance the dataset's quality, reduce dimensionality, setting the stage for effective machine learning model development.
 
-## 7. Data Modelling
+## 6. Data Modelling
 Used 6 models: </br>
 **Logistic Regression** </br>
 Achieved an accuracy of approximately 95%. </br>
@@ -156,7 +133,7 @@ Achieved an accuracy of approximately 94%. </br>
 **Neural Networks** </br>
 Achieved an accuracy of approximately 91%. </br>
 
-## 8. Evaluation
+## 7. Evaluation
 Ease of Interpretation: Accuracy is an intuitive and easily interpretable metric. It represents the percentage of correct predictions among all predictions made by the model. Users, including hotel staff, can readily understand and trust this metric.
 
 Clear Benchmark: Accuracy provides a clear benchmark for evaluating model performance. It answers the basic question: "How often is the model correct?" This simplicity can be advantageous for communication and decision-making.
@@ -169,7 +146,7 @@ Logistic regression = 95% </br>
 Random Forest = 94% </br>
 KNN = 94% </br>
 
-## 9. Conclusions And Recommendations
+## 8. Conclusions And Recommendations
 1. It provides a good example for exploring various machine learning techniques, particularly classification algorithms.
 
 2. Feature importance analysis: It can provide insights into which features contribute the most to the classification task. This information can be valuable for understanding the underlying characteristics of the data and potentially simplifying the model by focusing on the most relevant features.
@@ -178,7 +155,7 @@ KNN = 94% </br>
 4. Petal length and sepal length are twice the size of petal width and sepal width.
 5. It's essential to monitor the model's performance over time and periodically retrain it with new data to ensure its effectiveness.
    
-## 10. Challenges
+## 9. Challenges
 1. Dataset was too small - Used input method to enable users to input their own sample data
 
 2. Does not demonstrate real world applications due to it's small nature, rather, I used it to simply demonstrate Machine learning concepts
