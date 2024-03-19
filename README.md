@@ -9,7 +9,9 @@ sepal width, </br>
 petal length, </br>
 petal width
 ### 1.2 Problem Statement
-To develop a model that can accurately classify iris flowers into their respective species based on their physical characteristics.
+Classifying flowers can be challenging, especially with similarities in their morphological features. In botanical studies and horticulture, accurately identifying the species of a flower is crucial for various purposes, such as species conservation, breeding programs, and understanding ecological dynamics. However, manual classification based on morphological features can be time-consuming and subjective, leading to inconsistencies in identification.
+
+To address this challenge, the project aims to develop a machine learning model that can accurately classify flowers based on their morphological characteristics. By leveraging a dataset containing measurements of several features of different flower species, such as sepal length, sepal width, petal length, and petal width, the project seeks to train a model capable of distinguishing between species with a high degree of accuracy.
 
 # 1.3 Main Objective
 I will build a supervised learning model/models (now that I have the targets) that can learn from the provided dataset containing measurements of iris flowers.
