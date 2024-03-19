@@ -1,41 +1,5 @@
 ![iris flowers](https://github.com/MuchiriKinyua/iris-project/assets/113877377/94e26418-8514-4ee7-b33e-21574a778f9c)
-# iris-project
-## Table of Contents
-# Table of contents
-[1. Business Understanding](#1.-Business-Understanding) </br>
-[1.1 Business Description](#1.1-Business-Description) </br>
-[1.2 Problem Statement](#1.2-Problem-Statement) </br>
-[1.3 Main Objective](#1.3-Main-Objective) </br>
-[1.4 Specific Objectives](#1.4-Specific-Objectives) </br>
-[2. Importing Libraries And Warnings](#2.-Importing-Libraries-And-Warnings) </br>
-[3. Data Understanding](#3.-Data-Understanding) </br>
-[4. Data Cleaning](#4.-Data-Cleaning) </br>
-[4.2 Missing Values](#4.2-Missing-Values)</br>
-[4.3 Duplicates](#4.3-Duplicates)</br>
-[4.4 Outliers](#4.4-Outliers)</br>
-[5. EDA](#5.-EDA) </br>
-[5.1 Univariate Analysis](#5.1-Univariate-Analysis) </br>
-[5.2 Bivariate Analysis](#5.2-Bivariate-Analysis) </br>
-[5.3 Multivariate Analysis](#5.3-Multivariate-Analysis) </br>
-[6. Data Preprocessing](#6.-Data-Preprocessing) </br>
-[6.1 Performing Train Test Split](#6.1-Performing-Train-Test-Split) </br>
-[6.2 Scaling](#6.2-Scaling) </br>
-[6.3 PCA](#6.3-PCA) </br>
-[6.4 Correlation](#6.4-Correlation) </br>
-[7. Data Modelling](#7.-Data-Modelling) </br>
-[7.1 Logistic Regression](#7.1-Logistic-Regression) </br>
-[7.2 SVM](#7.2-SVM) </br>
-[7.3 Decision Trees](#7.3-Decision-Trees) </br>
-[7.4 Random Forest](#7.4-Random-Forest) </br>
-[7.5 KNN](#7.5-KNN) </br>
-[7.6 Neural Networks](#7.6-Neural-Networks) </br>
-[8. Evaluation](#8.-Evaluation) </br>
-[8.1 Logistic Regression Model Test](#8.1-Logistic-Regression-Model-Test) </br>
-[8.2 Random Forest Model Test](#8.2-Random-Forest-Model-Test) </br>
-[8.3 KNN Model Test](#8.3-KNN-Model-Test) </br>
-[9. Conclusions And Recommendations](#9.-Conclusions-And-Recommendations) </br>
-[10. Challenges](#10.-Challenges)
- 
+# iris-project 
 ## 1. Business Understanding
 ### 1.1 Business Description
 Classify iris flowers into three species (setosa, versicolor, virginica) based on 
