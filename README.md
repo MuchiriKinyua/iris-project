@@ -109,10 +109,7 @@ virginica has the largest sepal length and sepal width
 ## 5. Data Preprocessing
 **Performing Train Test Split** </br>
 The dataset was split into training and testing sets before scaling the features. </br>
-**Scaling** </br>
-Scaled the features to normalize the range of features in the dataset. </br>
-**PCA** </br>
-Created a scatter plot from principal components, where the color of the dot is based on the target value. Separated my variable X_train_pca based on the associated target value in y_train. Created dataframes setosa (target = 0),  </br> versicolor (target = 1),  </br> virginica (target = 2). </br>
+
 **Correlation** </br>
 I examined the correlation between numerical columns. I also created a heatmap to visualize the correlation matrix. Notably, a correlation coefficient of approximately 0 indicated no linear relationship between the variables in the dataset.
 
